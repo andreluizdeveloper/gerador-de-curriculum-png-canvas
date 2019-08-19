@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+input{
+	padding-left: 5px;
+}
+body{]
+	width: 600px;
+	font-size: 18px;
+	color: #000000;
+	background-color: #cecece
+}
+main{
+	max-width: 1280px;
+	width: 100%;
+	display: grid;
+	justify-content: center;
+}
+#container{
+	width: 600px;
+	min-width: 595px;
+	height: 702px;
+	background-color: #fff;
+	position: relative;
+	border: 1px solid #000;
+	margin: 20px;
+}
+.foto{
+	width: 120px;
+	height: 130px;
+	border: 1px solid #000;
+	margin: 20px 0 0 30px;
+}
+.titulo, h1{
+	width: 350px;
+	height: 37px;
+	font-size: 30px;
+	font-weight: 900;
+	margin:-110px 0 0 180px ;
+	position: absolute;
+}
+.nasc, #nasc{
+	width: 200px;
+	height: 23px;
+	font-size: 16px;
+	margin: -60px 0 0 390px;
+	font-weight: 900;
+	position: absolute;
+}
+.rg,#rg{
+	width: 200px;
+	height: 23px;
+	font-size: 16px;
+	font-weight: 900;
+	margin: -60px 0 0 180px;
+	position: absolute;
+}
+.cpf,#cpf{
+	width: 200px;
+	height: 23px;
+	font-size: 16px;
+	font-weight: 900;
+	margin: -35px 0 0 180px;
+	position: absolute;
+}
+.cnh,#cnh{
+	width: 200px;
+	height: 23px;
+	font-size: 16px;
+	font-weight: 900;
+	margin: -10px 0 0 180px;
+	position: absolute;
+}
+.categoria,#categoria{
+	width: 50px;
+	height: 23px;
+	font-size: 16px;
+	font-weight: 900;
+	margin: -10px 0 0 390px;
+	position: absolute;
+}
+.telefone,#telefone{
+	width: 200px;
+	height: 23px;
+	font-size: 16px;
+	font-weight: 900;
+	margin: 15px 0 0 180px;
+	position: absolute;
+}
+.endereco,#endereco{
+	width: 380px;
+	height: 23px;
+	font-size: 16px;
+	font-weight: 900;
+	margin: 40px 0 0 30px;
+	position: absolute;
+}
+.cep,#cep{
+	width: 175px;
+	height: 23px;
+	font-size: 16px;
+	font-weight: 900;
+	margin: 40px 0 0 420px;
+}
+.cidade,#cidade{
+	width: 150px;
+	height: 23px;
+	font-size: 16px;
+	font-weight: 900;
+	margin: 2px 0 0 30px;
+}
+#pais{
+	height: 23px;
+	font-size: 16px;
+	font-weight: 900;
+	margin: -22px 0 0 220px;
+	position: absolute;
+}
+.txt-exp{
+	font-size: 23px;
+	font-weight: 900;
+	margin: 10px 0 0 30px;
+}
+.empresa{
+	width: 200px;
+	height: 23px;
+	font-size: 16px;
+	font-weight: 900;
+	margin: 10px 0 0 30px;
+}
+.car{
+  	margin: -20px 0 0 240px;
+}
+.cargo{
+	font-size: 16px;
+	width: 190px;
+	height: 23px;
+	font-weight: 900;
+}
+.tempo{
+	font-size: 16px;
+	width: 150px;
+	height: 23px;
+	font-weight: 900;	
+}
+.tem{
+	margin: -23px 0 0 410px;
+}
+select, .escolaridade{
+	width: 170px;
+	height: 23px;
+	font-size: 16px;
+	font-weight: 900;
+	margin: 10px 0 0 30px;
+	padding-left: 5px;
+}
+.formacao-sup{
+	width: 370px;
+	height: 23px;
+	font-size: 16px;
+	font-weight: 900;
+	margin: 10px 0 0 30px;
+	padding-left: 5px;
+}
+.sobre{
+	margin: 30px 0 0 50px;
+	overflow: hidden;
+}
+.sobre::placeholder{
+	padding: 100px 20px 5px 45px;
+	font-size: 10px;
+}
+.btn{
+	margin: 0 0 0 250px;
+	width: 120px;
+	cursor: pointer;
+}
+.btn:hover{
+	color: red;
+}
+.assinatura{
+	padding: 0px 0 0 100px;
+	position: absolute;
+}
+.ass{
+	margin: 80px 0 0 0;
+}
+.container{
+	width: 595px;
+	min-width: 595px;
+	height: 702px;
+	min-height: 702px;
+	background-color: #fff;
+	position: relative;
+	margin-top: 20px;
+}
+#tabela{
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+td{
+	border: 1px solid #000;
+}
+
